@@ -31,7 +31,7 @@
         android:layout_marginTop="8dp"
         android:layout_marginBottom="8dp"
         android:onClick="moveVertical"
-        android:text="Transalte"
+        android:text="@string/transalte"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/ivBart" />
@@ -44,7 +44,7 @@
         android:layout_marginTop="8dp"
         android:layout_marginBottom="8dp"
         android:onClick="rotate"
-        android:text="Rotate"
+        android:text="@string/rotate"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@id/btMoveHorizontal"
         app:layout_constraintTop_toBottomOf="@id/ivBart" />
@@ -57,7 +57,7 @@
         android:layout_marginTop="8dp"
         android:layout_marginBottom="8dp"
         android:onClick="mix"
-        android:text="Mix"
+        android:text="@string/mix"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@+id/btTranslate"
         app:layout_constraintTop_toBottomOf="@+id/ivBart" />
@@ -70,7 +70,7 @@
         android:layout_marginTop="8dp"
         android:layout_marginBottom="8dp"
         android:onClick="fade"
-        android:text="Fade"
+        android:text="@string/fade"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@+id/button3"
         app:layout_constraintTop_toBottomOf="@+id/ivBart" />
